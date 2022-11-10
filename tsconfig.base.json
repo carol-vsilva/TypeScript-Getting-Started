@@ -1,0 +1,20 @@
+// We can also print it by typing tsc --init on the terminal if the file does not exist yet.
+{
+    "compilerOptions": {
+        // Js version compiling
+        // We can find all the compiler options on https://www.typescriptlang.org/docs/handbook/compiler-options.html
+        "target": "es5",
+        "sourceMap": true,
+        "outDir": "js",
+        "strict": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "watch": true
+    },
+    //Add new files that will need to be compiled
+    // "files": [
+    //     "app/app.ts"
+    // ]
+    //commented out as it can also be specified in the folder/project level instead of global level.
+}
+
