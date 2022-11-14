@@ -3,7 +3,9 @@
     "compilerOptions": {
         "removeComments": true,
         //"outFile": "../js/app.js"
-        "module": "CommonJS"
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "traceResolution": true
     },
     "files": [
         "./app.ts"
